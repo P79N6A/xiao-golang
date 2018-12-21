@@ -1,4 +1,4 @@
-// TODO description
+//
 // author: baoqiang
 // time: 2018/7/22 下午1:07
 package sample
@@ -16,6 +16,7 @@ import (
 
 func main() {
 	test8()
+	//TestTime()
 }
 
 func TestAbc(t *testing.T) {
