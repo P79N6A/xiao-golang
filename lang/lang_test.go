@@ -22,6 +22,8 @@ func TestLang(t *testing.T) {
 	//RunCtxTimeout()
 
 	//RunServerHttp()
-	RunFuncAdapter()
+	//RunFuncAdapter()
 
+	//RunReadWrite()
+	RunReadLine()
 }
