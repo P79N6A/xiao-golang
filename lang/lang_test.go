@@ -5,9 +5,23 @@ package lang
 
 import "testing"
 
-func TestSerialize(t *testing.T) {
-	Serialize()
-	DeSerialize()
-	Encode()
-	Decode()
+func TestLang(t *testing.T) {
+	//Serialize()
+	//DeSerialize()
+	//Encode()
+	//Decode()
+
+	//RunMap()
+	//RunSyncMap()
+
+	//RunPool()
+
+	//RunArray()
+
+	//RunCtxCancel()
+	//RunCtxTimeout()
+
+	//RunServerHttp()
+	RunFuncAdapter()
+
 }
