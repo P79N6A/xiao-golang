@@ -14,3 +14,46 @@ func Info() {
 	`
 	log.Printf("%s\n", str)
 }
+
+func Keywords() {
+	keys := `
+	1. fmt
+	2. errors	
+	3. strings
+	4. strconv
+	5. regexp
+	6. encoding/json
+	
+	1. bool
+	2. int,int8,int16,int32,int64
+	3. uint,uint8(short),uint16,uint32,uint64
+	4. float32,float64
+	5. string
+	6. complex64,complex128
+	7. array
+
+	1. slice
+	2. map
+	3. chan
+
+	1. append
+	2. close
+	3. delete
+	4. panic
+	5. recover
+	6. imag
+	7. real
+	8. make
+	9. new
+	10. cap
+	11. copy
+	12. len
+
+	1. error
+	type error interface {
+		Error() string
+	}
+
+	`
+	log.Printf("%s\n", keys)
+}

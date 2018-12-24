@@ -25,5 +25,17 @@ func TestLang(t *testing.T) {
 	//RunFuncAdapter()
 
 	//RunReadWrite()
-	RunReadLine()
+	//RunReadLine()
+
+	//RunCounter()
+
+	//RunPromise()
+
+	//CompareTime()
+
+	//EnDe()
+	//EnDe2()
+	//RunTimeJson()
+	OmitEmpty()
+
 }
