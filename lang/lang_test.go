@@ -36,6 +36,9 @@ func TestLang(t *testing.T) {
 	//EnDe()
 	//EnDe2()
 	//RunTimeJson()
-	OmitEmpty()
+	//OmitEmpty()
 
+	//RunEat()
+
+	RunGin()
 }
