@@ -8,6 +8,7 @@ import (
 	"code.byted.org/gopkg/pkg/log"
 	"path"
 	"bufio"
+	"io/ioutil"
 )
 
 func ReadLine(path string) {
@@ -58,12 +59,27 @@ func WriteFile(path string, data string) {
 	log.Printf("write cnt: %d\n", n)
 }
 
+// 多种读取文件的方式
+func ReadAll(path string) {
+	b1, _ := ioutil.ReadFile(path)
+
+	// 上面的readfile是第二种方式，可以buffer分块读取
+
+	f, err := os.Open(path)
+	HandlerError(err)
+	b3, _ := ioutil.ReadAll(f)
+
+	log.Printf("b1: %s\n", string(b1))
+	log.Printf("b3: %s\n", string(b3))
+}
+
 func RunReadWrite() {
 	filename := path.Join(os.Getenv("HOME"), "Desktop", "1.txt")
 	data := "abc\n你好\n3.14\n"
 
 	WriteFile(filename, data)
-	ReadFile(filename)
+	//ReadFile(filename)
+	ReadAll(filename)
 }
 
 func RunReadLine() {

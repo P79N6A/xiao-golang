@@ -17,6 +17,7 @@ func TestLang(t *testing.T) {
 	//RunPool()
 
 	//RunArray()
+	//RunReturn()
 
 	//RunCtxCancel()
 	//RunCtxTimeout()
@@ -40,5 +41,18 @@ func TestLang(t *testing.T) {
 
 	//RunEat()
 
-	RunGin()
+	//RunGin()
+
+	//RunFormat()
+
+	//RunSlice()
+
+	//DeferInCycle()
+	//RunNoNilErr()
+
+	//RunRace()
+
+	//GetPtr()
+
+	RunCtx()
 }
