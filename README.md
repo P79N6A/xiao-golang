@@ -52,7 +52,36 @@
 
 13. 类型通常会声明String()方法，表示该类型的人类可能形式，但是不要在里面使用fmt.Sprint等一系列相关的方法都会造成递归调用导致程序堆栈满异常。
 
+14. Go语言目录：语言基础，表达式，函数，数据，方法，接口，并发，包，进阶
 
+15. [极客学院Golang学习资料](http://wiki.jikexueyuan.com/project/the-go-study-notes-fourth-edition/language.html)
 
+16. go lang keywords:
+- break default func interface select
+- case defer go map struct
+- chan else goto package switch
+- const fallthrough if range type
+- continue for import return var
 
+17. what's defer chan fallthrough?
+- defer: finally run code
+- chan: FIFO queue
+- fallthrough: switch case fallthrough
 
+18. predefined identifier:
+- append bool type cap close complex complex64 complex128 uint16
+- copy false float32 float64 imag int int8 int16 unit32
+- int32 int64 iota len make new nil panic uint64
+- print println real recover string true uint uint8 uintptr
+
+19. type: rune(unicode)=int32 chan unitptr
+
+20. 结构体，接口，函数，大小写区分可见性。大写可见
+
+21. 常量结构体里面，如果后面一行没有初始化，那么就会使用上面一行的运算结果值
+
+22. go语言中，数组是值类型，结构是值类型，切片是引用类型
+
+23. copy(dest,src)
+
+24. 当赋值类型到接口时，会发生拷贝，所以对原类型的修改，对接口无效

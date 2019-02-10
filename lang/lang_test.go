@@ -6,6 +6,11 @@ package lang
 import "testing"
 
 func TestLang(t *testing.T) {
+	//RunBinary()
+	RunFnvHash()
+
+	//RunMapInterface()
+
 	//Serialize()
 	//DeSerialize()
 	//Encode()
@@ -54,5 +59,11 @@ func TestLang(t *testing.T) {
 
 	//GetPtr()
 
-	RunCtx()
+	//RunCtx()
+
+	//RunCond()
+
+	//RunRpc()
+
+	//RunChan()
 }
